@@ -128,3 +128,37 @@ $this->title = 'Startseite';
     </div>
 
 </div>
+<!-- Portfolio -->
+
+<div class="bg-light">
+    <div class="container" id="portfolio">
+        <div class="row">
+            <div class="col-sm-6 col-md-3 pt-5">
+                <img src="/img/rusty-tailed-9674318_1280.jpg" alt="Vogel" class="img-fluid img-thumbnail img-fixed-height">
+            </div>
+            <div class="col-sm-6 col-md-3 pt-5">
+                <img src="/img/forest-9685700_1280.jpg" alt="Wald" class="img-fluid img-thumbnail img-fixed-height">
+            </div>
+            <div class="col-sm-6 col-md-3 pt-5">
+                <img src="/img/grass-9702166_1280.jpg" alt="Graß" class="img-fluid img-thumbnail img-fixed-height">
+            </div>
+            <div class="col-sm-6 col-md-3 pt-5">
+                <img src="/img/landscape-8722691_1280.jpg" alt="Landschaft" class="img-fluid img-thumbnail img-fixed-height" >
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-3 pt-5">
+                <img src="/img/leaf-9091894_1280.jpg" alt="Strauch" class="img-fluid img-thumbnail img-fixed-height">
+            </div>
+            <div class="col-sm-6 col-md-3 pt-5">
+                <img src="/img/rock-formation-7404192_1280.jpg" alt="Felsen" class="img-fluid img-thumbnail img-fixed-height">
+            </div>
+            <div class="col-sm-6 col-md-3 pt-5">
+                <img src="/img/rusty-tailed-9674318_1280.jpg" alt="Vogel" class="img-fluid img-thumbnail img-fixed-height">
+            </div>
+            <div class="col-sm-6 col-md-3 py-5">
+                <img src="/img/forest-9685700_1280.jpg" alt="Wald" class="img-fluid img-thumbnail img-fixed-height" >
+            </div>
+        </div>
+    </div>
+</div>

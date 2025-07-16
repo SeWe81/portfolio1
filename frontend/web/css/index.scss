@@ -20,3 +20,8 @@
   height: auto;
   padding: 21px;
 }
+ .img-fixed-height {
+   height: 200px; /* oder jede gewünschte Höhe */
+   object-fit: cover;
+   width: 100%; /* optional, um volle Breite der Spalte zu nutzen */
+ }
