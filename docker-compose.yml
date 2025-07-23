@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 version: '3'
 services:
   app:
@@ -24,3 +25,43 @@ services:
 volumes:
   db-data:
 
+=======
+version: '3.2'
+
+services:
+
+  frontend:
+    build: frontend
+    ports:
+      - 8080:80
+    volumes:
+      # Re-use local composer cache via host-volume
+      - ~/.composer-docker/cache:/root/.composer/cache:delegated
+      # Mount source-code for development
+      - ./:/app
+
+  backend:
+    build: backend
+    ports:
+      - 21080:80
+    volumes:
+      # Re-use local composer cache via host-volume
+      - ~/.composer-docker/cache:/root/.composer/cache:delegated
+      # Mount source-code for development
+      - ./:/app
+
+  mysql:
+    image: mysql:5.7
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=portfolio1
+      - MYSQL_USER=portfolio1
+      - MYSQL_PASSWORD=""
+
+  #pgsql:
+  #  image: postgres:9.5
+  #  environment:
+  #    - POSTGRES_DB=yii2advanced
+  #    - POSTGRES_USER=yii2advanced
+  #    - POSTGRES_PASSWORD=secret
+>>>>>>> 81856693fa64cd6d685e93dd500d98dccd32edbd
